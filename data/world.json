@@ -1,0 +1,1556 @@
+{
+  "start_room": "square",
+  "recall_room": "temple",
+  "items": {
+    "training_sword": {
+      "name": "учебный меч",
+      "description": "Простой затупленный меч для первых боев.",
+      "keywords": [
+        "меч",
+        "клинок"
+      ],
+      "slot": "weapon",
+      "damage_min": 2,
+      "damage_max": 5,
+      "value": 15
+    },
+    "quilt_armor": {
+      "name": "стеганый доспех",
+      "description": "Старый, но еще крепкий стеганый доспех.",
+      "keywords": [
+        "доспех",
+        "броня"
+      ],
+      "slot": "body",
+      "armor": 3,
+      "vitality": 1,
+      "value": 18
+    },
+    "iron_sword": {
+      "name": "железный меч",
+      "description": "Надежный меч городского оружейника.",
+      "keywords": [
+        "меч"
+      ],
+      "slot": "weapon",
+      "damage_min": 4,
+      "damage_max": 8,
+      "value": 55
+    },
+    "war_hammer": {
+      "name": "боевой молот",
+      "description": "Тяжелое оружие для тех, кто любит ломать щиты.",
+      "keywords": [
+        "молот"
+      ],
+      "slot": "weapon",
+      "damage_min": 5,
+      "damage_max": 9,
+      "strength": 1,
+      "value": 65
+    },
+    "oak_staff": {
+      "name": "дубовый посох",
+      "description": "Простой посох ученика мага.",
+      "keywords": [
+        "посох"
+      ],
+      "slot": "weapon",
+      "damage_min": 3,
+      "damage_max": 6,
+      "value": 58
+    },
+    "chainmail": {
+      "name": "кольчуга",
+      "description": "Неплохая защита для начинающего воина.",
+      "keywords": [
+        "кольчуга"
+      ],
+      "slot": "body",
+      "armor": 6,
+      "vitality": 2,
+      "value": 70
+    },
+    "iron_helm": {
+      "name": "железный шлем",
+      "description": "Тяжелый шлем с потертой переносицей.",
+      "keywords": [
+        "шлем"
+      ],
+      "slot": "head",
+      "armor": 4,
+      "value": 45
+    },
+    "travel_ration": {
+      "name": "дорожный паек",
+      "description": "Сухари, сыр и вяленое мясо. В дороге всегда пригодится.",
+      "keywords": [
+        "паек",
+        "еда"
+      ],
+      "value": 10
+    },
+    "healing_herbs": {
+      "name": "лечебные травы",
+      "description": "Связка трав, пахнущая лесом и горечью.",
+      "keywords": [
+        "травы"
+      ],
+      "value": 16
+    },
+    "mana_powder": {
+      "name": "порошок маны",
+      "description": "Блестящий порошок для магических практик.",
+      "keywords": [
+        "мана",
+        "порошок"
+      ],
+      "value": 22
+    },
+    "book_fireball": {
+      "name": "гримуар огненного шара",
+      "description": "Старинная книга с обожженными полями. Помогает изучить fireball.",
+      "keywords": [
+        "гримуар",
+        "книга",
+        "fireball"
+      ],
+      "value": 90,
+      "teaches_skill": "fireball"
+    },
+    "book_lightning": {
+      "name": "трактат о молнии",
+      "description": "Тонкая книга с пометками на полях. Помогает изучить lightning.",
+      "keywords": [
+        "трактат",
+        "книга",
+        "lightning"
+      ],
+      "value": 90,
+      "teaches_skill": "lightning"
+    },
+    "ruby_blade": {
+      "name": "рубиновый клинок",
+      "description": "Редкое оружие за рубины с тонкой алой гравировкой.",
+      "keywords": [
+        "клинок",
+        "рубиновый"
+      ],
+      "slot": "weapon",
+      "damage_min": 7,
+      "damage_max": 11,
+      "agility": 1,
+      "value": 3
+    },
+    "rat_fang": {
+      "name": "крысиный клык",
+      "description": "Желтоватый клык, снятый с особенно крупной крысы.",
+      "keywords": [
+        "клык"
+      ],
+      "value": 4
+    },
+    "goblin_dagger": {
+      "name": "ржавый кинжал",
+      "description": "Кривой кинжал, которым гоблин привык резать кошели и глотки.",
+      "keywords": [
+        "кинжал"
+      ],
+      "slot": "weapon",
+      "damage_min": 3,
+      "damage_max": 6,
+      "agility": 1,
+      "value": 24
+    },
+    "goblin_hood": {
+      "name": "кожаный капюшон",
+      "description": "Пахнет дымом и лесной сыростью. Все еще пригоден для носки.",
+      "keywords": [
+        "капюшон",
+        "шлем"
+      ],
+      "slot": "head",
+      "armor": 2,
+      "agility": 1,
+      "value": 14
+    },
+    "book_blindness": {
+      "name": "трактат слепоты",
+      "description": "Плотно прошитая книга для лекарей. Помогает изучить blindness.",
+      "keywords": [
+        "трактат",
+        "книга",
+        "blindness"
+      ],
+      "value": 95,
+      "teaches_skill": "blindness"
+    },
+    "book_fire_burst": {
+      "name": "свиток огненного всполоха",
+      "description": "Опаленный свиток. Помогает изучить fireburst.",
+      "keywords": [
+        "свиток",
+        "книга",
+        "fireburst"
+      ],
+      "value": 95,
+      "teaches_skill": "fire_burst"
+    },
+    "book_ice_strike": {
+      "name": "табличка ледяного удара",
+      "description": "Холодная на ощупь табличка. Помогает изучить icestrike.",
+      "keywords": [
+        "табличка",
+        "книга",
+        "icestrike"
+      ],
+      "value": 95,
+      "teaches_skill": "ice_strike"
+    },
+    "book_stone_fist": {
+      "name": "скрижаль каменного кулака",
+      "description": "Тяжелая скрижаль. Помогает изучить stonefist.",
+      "keywords": [
+        "скрижаль",
+        "книга",
+        "stonefist"
+      ],
+      "value": 95,
+      "teaches_skill": "stone_fist"
+    },
+    "book_air_burst": {
+      "name": "манускрипт взрыва воздуха",
+      "description": "Листы дрожат от сквозняка. Помогает изучить airburst.",
+      "keywords": [
+        "манускрипт",
+        "книга",
+        "airburst"
+      ],
+      "value": 95,
+      "teaches_skill": "air_burst"
+    },
+    "book_restore_energy": {
+      "name": "тетрадь восстановления энергии",
+      "description": "Тетрадь с шаманскими символами. Помогает изучить restoreenergy.",
+      "keywords": [
+        "тетрадь",
+        "книга",
+        "restoreenergy"
+      ],
+      "value": 95,
+      "teaches_skill": "restore_energy"
+    },
+    "book_holy_wrath": {
+      "name": "кодекс святого гнева",
+      "description": "Украшенный серебром кодекс. Помогает изучить holywrath.",
+      "keywords": [
+        "кодекс",
+        "книга",
+        "holywrath"
+      ],
+      "value": 120,
+      "teaches_skill": "holy_wrath"
+    },
+    "book_soul_drain": {
+      "name": "обряд вытягивания души",
+      "description": "Запретный трактат. Помогает изучить souldrain.",
+      "keywords": [
+        "трактат",
+        "книга",
+        "souldrain"
+      ],
+      "value": 120,
+      "teaches_skill": "soul_drain"
+    },
+    "book_exorcism": {
+      "name": "свиток экзорцизма",
+      "description": "Плотный свиток с печатями веры. Помогает изучить exorcism.",
+      "keywords": [
+        "свиток",
+        "книга",
+        "exorcism"
+      ],
+      "value": 120,
+      "teaches_skill": "exorcism"
+    },
+    "book_greater_heal": {
+      "name": "манускрипт великого исцеления",
+      "description": "Тонкие листы о глубоком лечении. Помогает изучить greaterheal.",
+      "keywords": [
+        "манускрипт",
+        "книга",
+        "greaterheal"
+      ],
+      "value": 120,
+      "teaches_skill": "greater_heal"
+    },
+    "book_tidal_wave": {
+      "name": "табличка приливной волны",
+      "description": "Сырая каменная табличка. Помогает изучить tidalwave.",
+      "keywords": [
+        "табличка",
+        "книга",
+        "tidalwave"
+      ],
+      "value": 120,
+      "teaches_skill": "tidal_wave"
+    },
+    "book_earth_shatter": {
+      "name": "скрижаль земного разлома",
+      "description": "Тяжелая скрижаль с трещинами. Помогает изучить earthshatter.",
+      "keywords": [
+        "скрижаль",
+        "книга",
+        "earthshatter"
+      ],
+      "value": 120,
+      "teaches_skill": "earth_shatter"
+    },
+    "book_spirit_link": {
+      "name": "узел духовной связи",
+      "description": "Связка костей и нитей. Помогает изучить spiritlink.",
+      "keywords": [
+        "узел",
+        "книга",
+        "spiritlink"
+      ],
+      "value": 120,
+      "teaches_skill": "spirit_link"
+    },
+    "book_shadow_flame": {
+      "name": "гримуар теневого пламени",
+      "description": "Черный гримуар с горячими страницами. Помогает изучить shadowflame.",
+      "keywords": [
+        "гримуар",
+        "книга",
+        "shadowflame"
+      ],
+      "value": 120,
+      "teaches_skill": "shadow_flame"
+    },
+    "rat_king_blade": {
+      "name": "ржавый царский клинок",
+      "description": "Длинный клинок, заточенный крысиным королем под себя.",
+      "keywords": [
+        "клинок",
+        "меч"
+      ],
+      "slot": "weapon",
+      "weapon_type": "клинки",
+      "damage_min": 9,
+      "damage_max": 14,
+      "agility": 1,
+      "value": 110
+    },
+    "rat_king_axe": {
+      "name": "подземный топор мясника",
+      "description": "Тяжелый топор с выщербленным лезвием.",
+      "keywords": [
+        "топор"
+      ],
+      "slot": "weapon",
+      "weapon_type": "топоры",
+      "damage_min": 10,
+      "damage_max": 15,
+      "strength": 1,
+      "value": 110
+    },
+    "rat_king_mace": {
+      "name": "канализационный молот",
+      "description": "Грубый молот, которым дробят кости и щиты.",
+      "keywords": [
+        "молот",
+        "булава"
+      ],
+      "slot": "weapon",
+      "weapon_type": "булавы и молоты",
+      "damage_min": 10,
+      "damage_max": 14,
+      "vitality": 1,
+      "value": 110
+    },
+    "rat_king_shiv": {
+      "name": "королевский заточенный резак",
+      "description": "Короткий клинок для грязной драки в узких ходах.",
+      "keywords": [
+        "резак",
+        "кинжал"
+      ],
+      "slot": "weapon",
+      "weapon_type": "короткие клинки",
+      "damage_min": 8,
+      "damage_max": 13,
+      "agility": 2,
+      "value": 110
+    },
+    "rat_king_polearm": {
+      "name": "костяное крысиное копье",
+      "description": "Длинное копье из костей и железа.",
+      "keywords": [
+        "копье",
+        "шест"
+      ],
+      "slot": "weapon",
+      "weapon_type": "копья и шесты",
+      "damage_min": 9,
+      "damage_max": 15,
+      "strength": 1,
+      "agility": 1,
+      "value": 110
+    },
+    "book_sacred_shield": {
+      "name": "фолиант священного щита",
+      "description": "Позолоченный фолиант паладинов. Помогает изучить sacredshield.",
+      "keywords": [
+        "фолиант",
+        "книга",
+        "sacredshield"
+      ],
+      "value": 150,
+      "teaches_skill": "sacred_shield"
+    },
+    "book_death_pact": {
+      "name": "кодекс кровавого пакта",
+      "description": "Темный кодекс рыцарей ночи. Помогает изучить deathpact.",
+      "keywords": [
+        "кодекс",
+        "книга",
+        "deathpact"
+      ],
+      "value": 150,
+      "teaches_skill": "death_pact"
+    },
+    "book_zeal_purge": {
+      "name": "свиток ревностного очищения",
+      "description": "Печати инквизиции горят на полях. Помогает изучить zealpurge.",
+      "keywords": [
+        "свиток",
+        "книга",
+        "zealpurge"
+      ],
+      "value": 150,
+      "teaches_skill": "zeal_purge"
+    },
+    "book_salvation": {
+      "name": "книга спасения",
+      "description": "Тяжелая книга молитв лекарей. Помогает изучить salvation.",
+      "keywords": [
+        "книга",
+        "salvation"
+      ],
+      "value": 150,
+      "teaches_skill": "salvation"
+    },
+    "book_storm_totem": {
+      "name": "табличка тотема бури",
+      "description": "Руны шаманов пульсируют в дереве. Помогает изучить stormtotem.",
+      "keywords": [
+        "табличка",
+        "книга",
+        "stormtotem"
+      ],
+      "value": 150,
+      "teaches_skill": "storm_totem"
+    },
+    "book_abyss_bolt": {
+      "name": "гримуар болта бездны",
+      "description": "Страницы будто поглощают свет. Помогает изучить abyssbolt.",
+      "keywords": [
+        "гримуар",
+        "книга",
+        "abyssbolt"
+      ],
+      "value": 150,
+      "teaches_skill": "abyss_bolt"
+    },
+    "book_flame_storm": {
+      "name": "манускрипт огненного шторма",
+      "description": "Обожженный манускрипт архимагов огня. Помогает изучить flamestorm.",
+      "keywords": [
+        "манускрипт",
+        "книга",
+        "flamestorm"
+      ],
+      "value": 150,
+      "teaches_skill": "flame_storm"
+    },
+    "book_tsunami": {
+      "name": "трактат цунами",
+      "description": "Водяные печати двигаются на листах. Помогает изучить tsunami.",
+      "keywords": [
+        "трактат",
+        "книга",
+        "tsunami"
+      ],
+      "value": 150,
+      "teaches_skill": "tsunami"
+    },
+    "book_mountain_guard": {
+      "name": "скрижаль горной стражи",
+      "description": "Каменная плита с древними рунами. Помогает изучить mountainguard.",
+      "keywords": [
+        "скрижаль",
+        "книга",
+        "mountainguard"
+      ],
+      "value": 150,
+      "teaches_skill": "mountain_guard"
+    },
+    "book_thunderstorm": {
+      "name": "свиток громовой бури",
+      "description": "Свиток пахнет озоном. Помогает изучить thunderstorm.",
+      "keywords": [
+        "свиток",
+        "книга",
+        "thunderstorm"
+      ],
+      "value": 150,
+      "teaches_skill": "thunderstorm"
+    }
+  },
+  "shops": {
+    "weapon_shop": [
+      "training_sword",
+      "iron_sword",
+      "war_hammer"
+    ],
+    "armor_shop": [
+      "quilt_armor",
+      "chainmail",
+      "iron_helm"
+    ],
+    "road_shop": [
+      "travel_ration",
+      "healing_herbs"
+    ],
+    "magic_shop": [
+      "oak_staff",
+      "mana_powder",
+      "book_lightning"
+    ],
+    "ruby_shop": [
+      "ruby_blade"
+    ]
+  },
+  "rooms": {
+    "square": {
+      "area": "Лонгред",
+      "sector": "city",
+      "title": "Центральная площадь Лонгреда",
+      "description": "Сердце стартового города Лонгред: отсюда дороги расходятся к гильдиям, рынку, храму и западным кварталам.",
+      "exits": {
+        "north": "guild_square",
+        "east": "market_lane",
+        "south": "temple_courtyard",
+        "west": "west_lane"
+      }
+    },
+    "guild_square": {
+      "area": "Лонгред",
+      "sector": "city",
+      "title": "Площадь гильдий",
+      "description": "Каменная площадь окружена эмблемами разных школ и боевых орденов. Здесь новички ищут своих наставников.",
+      "exits": {
+        "south": "square",
+        "north": "hall_martial",
+        "east": "hall_arcane",
+        "west": "hall_faith",
+        "down": "hall_shadow"
+      }
+    },
+    "hall_martial": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Воинский квартал",
+      "description": "Тяжелые двери и тренировочные манекены отмечают квартал чистой силы и строевой выучки.",
+      "exits": {
+        "south": "guild_square",
+        "north": "guild_berserker",
+        "east": "guild_shield_warrior",
+        "west": "guild_vanguard",
+        "up": "guild_guardian"
+      }
+    },
+    "hall_shadow": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Квартал теней",
+      "description": "Полутемный коридор связывает ордена, которые привыкли действовать скрытно или под покровом мрачной славы.",
+      "exits": {
+        "up": "guild_square",
+        "north": "guild_paladin",
+        "east": "guild_black_knight",
+        "west": "guild_rogue",
+        "south": "guild_assassin"
+      }
+    },
+    "hall_faith": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Квартал веры",
+      "description": "Под сводами слышны молитвы, шепот духов и оккультные клятвы.",
+      "exits": {
+        "east": "guild_square",
+        "north": "guild_inquisitor",
+        "south": "guild_healer",
+        "west": "guild_shaman",
+        "up": "guild_warlock"
+      }
+    },
+    "hall_arcane": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Квартал стихий",
+      "description": "Зал с резными арками делит между собой огонь, вода, камень и воздух.",
+      "exits": {
+        "west": "guild_square",
+        "north": "guild_fire_mage",
+        "south": "guild_water_mage",
+        "east": "guild_earth_mage",
+        "up": "guild_air_mage"
+      }
+    },
+    "guild_berserker": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия берсерков",
+      "description": "На стойках развешаны двуручники, а мастер требует силы и ярости.",
+      "services": {
+        "trainer": "берсерк"
+      },
+      "exits": {
+        "south": "hall_martial"
+      }
+    },
+    "guild_shield_warrior": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия воинов щита",
+      "description": "Здесь учат стоять под ударом и ломать темп врага надежной защитой.",
+      "services": {
+        "trainer": "воин щита"
+      },
+      "exits": {
+        "west": "hall_martial"
+      }
+    },
+    "guild_vanguard": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия авангарда",
+      "description": "Тренировочный зал для тех, кто любит прорыв, давление и первый удар.",
+      "services": {
+        "trainer": "авангард"
+      },
+      "exits": {
+        "east": "hall_martial"
+      }
+    },
+    "guild_guardian": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия защитников",
+      "description": "Массивные доспехи и спокойный наставник напоминают, что стойкость тоже оружие.",
+      "services": {
+        "trainer": "защитник"
+      },
+      "exits": {
+        "down": "hall_martial"
+      }
+    },
+    "guild_paladin": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия паладинов",
+      "description": "Свет лампад отражается от полированных лат. Здесь учат служить свету мечом.",
+      "services": {
+        "trainer": "паладин"
+      },
+      "exits": {
+        "south": "hall_shadow"
+      }
+    },
+    "guild_black_knight": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия черных рыцарей",
+      "description": "Черные знамена, тяжелые латы и глухой голос наставника.",
+      "services": {
+        "trainer": "черный рыцарь"
+      },
+      "exits": {
+        "west": "hall_shadow"
+      }
+    },
+    "guild_rogue": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия разбойников",
+      "description": "Сумрачный зал, где учат ловкости рук, ног и кинжала.",
+      "services": {
+        "trainer": "разбойник"
+      },
+      "exits": {
+        "east": "hall_shadow"
+      }
+    },
+    "guild_assassin": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия ассасинов",
+      "description": "Тишина и острые клинки подсказывают, что ошибки здесь не прощают.",
+      "services": {
+        "trainer": "ассасин"
+      },
+      "exits": {
+        "north": "hall_shadow"
+      }
+    },
+    "guild_inquisitor": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия инквизиторов",
+      "description": "Строгие символы веры напоминают, что тьму нужно выжигать до основания.",
+      "services": {
+        "trainer": "инквизитор"
+      },
+      "exits": {
+        "south": "hall_faith"
+      }
+    },
+    "guild_healer": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия лекарей",
+      "description": "Травы, чистая вода и белые ткани — все говорит о спасении жизней.",
+      "services": {
+        "trainer": "лекарь"
+      },
+      "exits": {
+        "north": "hall_faith"
+      }
+    },
+    "guild_shaman": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия шаманов",
+      "description": "Бубны и связки трав висят под потолком рядом с тотемами духов.",
+      "services": {
+        "trainer": "шаман"
+      },
+      "exits": {
+        "east": "hall_faith"
+      }
+    },
+    "guild_warlock": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия варлоков",
+      "description": "Пол устлан кругами призыва, а свечной дым не рассеивается до конца.",
+      "services": {
+        "trainer": "варлок"
+      },
+      "exits": {
+        "down": "hall_faith"
+      }
+    },
+    "guild_fire_mage": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия магов огня",
+      "description": "Воздух теплый, а стены хранят следы от старых вспышек и заклинаний.",
+      "services": {
+        "trainer": "маг огня"
+      },
+      "exits": {
+        "south": "hall_arcane"
+      }
+    },
+    "guild_water_mage": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия магов воды",
+      "description": "Чаши с водой отражают ровный свет и успокаивают дыхание ученика.",
+      "services": {
+        "trainer": "маг воды"
+      },
+      "exits": {
+        "north": "hall_arcane"
+      }
+    },
+    "guild_earth_mage": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия магов земли",
+      "description": "Каменные плиты под ногами и размеренный голос мастера внушают устойчивость.",
+      "services": {
+        "trainer": "маг земли"
+      },
+      "exits": {
+        "west": "hall_arcane"
+      }
+    },
+    "guild_air_mage": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гильдия магов воздуха",
+      "description": "Сквозняки гуляют по открытому балкону, а наставник говорит быстро и легко.",
+      "services": {
+        "trainer": "маг воздуха"
+      },
+      "exits": {
+        "down": "hall_arcane"
+      }
+    },
+    "market_lane": {
+      "area": "Лонгред",
+      "sector": "city",
+      "title": "Торговая улица",
+      "description": "Плотный поток горожан проходит мимо лавок, банка и входа в библиотеку.",
+      "exits": {
+        "west": "square",
+        "east": "weapon_shop_room",
+        "north": "library_entry",
+        "south": "inn_room",
+        "up": "bank_room",
+        "down": "road_shop_room"
+      }
+    },
+    "weapon_shop_room": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Оружейная лавка",
+      "description": "На стенах развешаны мечи, молоты и тренировочные клинки для новобранцев.",
+      "services": {
+        "shop": "weapon_shop"
+      },
+      "exits": {
+        "west": "market_lane",
+        "east": "armor_shop_room"
+      }
+    },
+    "armor_shop_room": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Лавка брони",
+      "description": "Под потолком звенят кольца кольчуг и ремни кожаных доспехов.",
+      "services": {
+        "shop": "armor_shop"
+      },
+      "exits": {
+        "west": "weapon_shop_room",
+        "east": "magic_shop_room"
+      }
+    },
+    "magic_shop_room": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Магическая лавка",
+      "description": "На полках стоят посохи, порошки и учебные книги для тех, кто готов платить за силу.",
+      "services": {
+        "shop": "magic_shop"
+      },
+      "exits": {
+        "west": "armor_shop_room",
+        "east": "ruby_shop_room"
+      }
+    },
+    "ruby_shop_room": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Рубиновая лавка",
+      "description": "Здесь продают редкие вещи за особую валюту, и цены почти всегда кусаются.",
+      "services": {
+        "shop": "ruby_shop"
+      },
+      "exits": {
+        "west": "magic_shop_room"
+      }
+    },
+    "road_shop_room": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Дорожная лавка",
+      "description": "Сухпайки, травы и мелкие полезные вещи для тех, кто собирается покинуть город.",
+      "services": {
+        "shop": "road_shop"
+      },
+      "exits": {
+        "up": "market_lane"
+      }
+    },
+    "bank_room": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Банк союза гильдий",
+      "description": "За решеткой сидит сухой клерк и внимательно следит за каждым мешочком монет.",
+      "services": {
+        "bank": "city_bank"
+      },
+      "exits": {
+        "down": "market_lane"
+      }
+    },
+    "inn_room": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Гостиница у рынка",
+      "description": "Теплый зал гостиницы служит тихим убежищем для приезжих и усталых авантюристов.",
+      "services": {
+        "inn": "village_inn"
+      },
+      "exits": {
+        "north": "market_lane",
+        "west": "tavern_entry"
+      }
+    },
+    "temple_courtyard": {
+      "area": "Лонгред",
+      "sector": "city",
+      "title": "Храмовый двор",
+      "description": "Спокойный двор перед храмом. Рядом заметна решетка, ведущая в городскую канализацию.",
+      "exits": {
+        "north": "square",
+        "south": "temple",
+        "down": "sewer_entry"
+      }
+    },
+    "temple": {
+      "area": "Лонгред",
+      "sector": "inside",
+      "title": "Храм возвращения",
+      "description": "Тихий храм с каменным алтарем. Здесь безопасно перевести дух после тяжелого боя.",
+      "exits": {
+        "north": "temple_courtyard"
+      }
+    },
+    "west_lane": {
+      "area": "Лонгред",
+      "sector": "city",
+      "title": "Западный переулок",
+      "description": "Тихая улица уводит к парку и двери городской таверны.",
+      "exits": {
+        "east": "square",
+        "west": "park_gate",
+        "north": "tavern_entry"
+      }
+    },
+    "library_entry": {
+      "area": "Библиотека Лонгреда",
+      "sector": "inside",
+      "title": "Вестибюль библиотеки",
+      "description": "Тихий мраморный вестибюль с каталогами и старым архивариусом. Отсюда начинаются глубокие залы знаний.",
+      "exits": {
+        "south": "market_lane",
+        "north": "library_archive",
+        "east": "library_hall"
+      }
+    },
+    "library_archive": {
+      "area": "Библиотека Лонгреда",
+      "sector": "inside",
+      "title": "Архив библиотеки",
+      "description": "Высокие шкафы уходят в полумрак. В пыли лежат десятки забытых трактатов.",
+      "exits": {
+        "south": "library_entry",
+        "north": "library_deep_archive"
+      }
+    },
+    "park_gate": {
+      "area": "Парк Лонгреда",
+      "sector": "city",
+      "title": "Ворота парка",
+      "description": "Чугунная решетка ведет из города в отдельную парковую зону Лонгреда.",
+      "exits": {
+        "east": "west_lane",
+        "west": "park_center"
+      }
+    },
+    "park_center": {
+      "area": "Парк Лонгреда",
+      "sector": "field",
+      "title": "Аллея парка",
+      "description": "Широкая аллея ведет к зарослям, пруду, старым камням и яме на дальней поляне.",
+      "exits": {
+        "east": "park_gate",
+        "north": "park_hedge",
+        "south": "park_pond",
+        "west": "park_ruins",
+        "down": "dog_pit"
+      }
+    },
+    "tavern_entry": {
+      "area": "Таверна Лонгреда",
+      "sector": "inside",
+      "title": "Зал таверны",
+      "description": "Шумный зал таверны наполнен разговорами, звоном кружек и дорожными слухами.",
+      "exits": {
+        "south": "west_lane",
+        "east": "inn_room",
+        "up": "tavern_room"
+      }
+    },
+    "tavern_room": {
+      "area": "Таверна Лонгреда",
+      "sector": "inside",
+      "title": "Комнаты наверху",
+      "description": "Наверху тише: здесь заключают сделки, обсуждают слухи и снимают угол на ночь.",
+      "exits": {
+        "down": "tavern_entry"
+      }
+    },
+    "sewer_entry": {
+      "area": "Канализация Лонгреда",
+      "sector": "inside",
+      "title": "Решетка канализации",
+      "description": "Сырой спуск ведет в темные городские ходы под храмовым двором.",
+      "exits": {
+        "up": "temple_courtyard",
+        "down": "sewer_tunnel"
+      }
+    },
+    "sewer_tunnel": {
+      "area": "Канализация Лонгреда",
+      "sector": "inside",
+      "title": "Главный тоннель канализации",
+      "description": "Широкий тоннель уходит вглубь под город. В сточной воде шуршат хвосты и скользят тени.",
+      "exits": {
+        "up": "sewer_entry",
+        "north": "sewer_crossroads"
+      },
+      "items": [
+        "rat_fang"
+      ]
+    },
+    "sewer_boss": {
+      "area": "Канализация Лонгреда",
+      "sector": "inside",
+      "title": "Тронная нора крысиного короля",
+      "description": "Под сводом из мусора и костей стоит подобие трона. Здесь правит крысиный король.",
+      "exits": {
+        "south": "sewer_crossroads"
+      }
+    },
+    "park_hedge": {
+      "area": "Парк Лонгреда",
+      "sector": "field",
+      "title": "Заросли боярышника",
+      "description": "Кусты почти скрывают тропинку. Здесь часто шуршат мелкие вредители.",
+      "exits": {
+        "south": "park_center",
+        "north": "park_glade"
+      }
+    },
+    "park_glade": {
+      "area": "Парк Лонгреда",
+      "sector": "field",
+      "title": "Тихая поляна",
+      "description": "Редкие лучи солнца падают на траву. В тишине слышится только шорох крыльев.",
+      "exits": {
+        "south": "park_hedge"
+      }
+    },
+    "park_pond": {
+      "area": "Парк Лонгреда",
+      "sector": "field",
+      "title": "Пруд с камышами",
+      "description": "У кромки воды пахнет тиной, а в камышах прячутся мелкие хищники.",
+      "exits": {
+        "north": "park_center"
+      }
+    },
+    "park_ruins": {
+      "area": "Парк Лонгреда",
+      "sector": "field",
+      "title": "Каменный круг",
+      "description": "Здесь стоят старые садовые камни и разбитая статуя. Место кажется тревожным.",
+      "exits": {
+        "east": "park_center"
+      }
+    },
+    "dog_pit": {
+      "area": "Парк Лонгреда",
+      "sector": "field",
+      "title": "Собачья яма",
+      "description": "Глубокая яма заросла бурьяном. На дне видны кости, обрывки поводков и следы большой псины.",
+      "exits": {
+        "up": "park_center"
+      }
+    },
+    "sewer_crossroads": {
+      "area": "Канализация Лонгреда",
+      "sector": "inside",
+      "title": "Перекресток стоков",
+      "description": "Здесь сходятся несколько ходов. От сырости стены покрылись слизью, а в темноте скребут когти.",
+      "exits": {
+        "south": "sewer_tunnel",
+        "west": "sewer_rat_run",
+        "east": "sewer_slime_nest",
+        "north": "sewer_boss"
+      }
+    },
+    "sewer_rat_run": {
+      "area": "Канализация Лонгреда",
+      "sector": "inside",
+      "title": "Крысиный лаз",
+      "description": "Узкий проход забит костями, мусором и запахом жирных крыс.",
+      "exits": {
+        "east": "sewer_crossroads"
+      }
+    },
+    "sewer_slime_nest": {
+      "area": "Канализация Лонгреда",
+      "sector": "inside",
+      "title": "Слизистый карман",
+      "description": "Низкий зал затянут густой слизью. Здесь трудно идти и легко оступиться.",
+      "exits": {
+        "west": "sewer_crossroads"
+      }
+    },
+    "library_hall": {
+      "area": "Библиотека Лонгреда",
+      "sector": "inside",
+      "title": "Читальный зал",
+      "description": "Длинные столы, тихие лампы и мерный шелест страниц создают тревожный покой.",
+      "exits": {
+        "west": "library_entry",
+        "east": "library_stack",
+        "north": "library_restricted"
+      }
+    },
+    "library_stack": {
+      "area": "Библиотека Лонгреда",
+      "sector": "inside",
+      "title": "Стеллажи редких книг",
+      "description": "Узкие проходы между стеллажами полны редких томов и закрытых ящиков.",
+      "exits": {
+        "west": "library_hall",
+        "north": "library_observatory"
+      }
+    },
+    "library_restricted": {
+      "area": "Библиотека Лонгреда",
+      "sector": "inside",
+      "title": "Запретная секция",
+      "description": "Здесь книги прикованы цепями, а записи ведутся только под присмотром библиотекарей.",
+      "exits": {
+        "south": "library_hall",
+        "north": "library_curator_chamber"
+      }
+    },
+    "library_deep_archive": {
+      "area": "Библиотека Лонгреда",
+      "sector": "inside",
+      "title": "Глубокий архив",
+      "description": "В глубоком архиве холодно и сыро. Старые фолианты хранят опасные знания.",
+      "exits": {
+        "south": "library_archive",
+        "east": "library_curator_chamber"
+      }
+    },
+    "library_observatory": {
+      "area": "Библиотека Лонгреда",
+      "sector": "inside",
+      "title": "Смотровая ротонда",
+      "description": "Круглый зал под стеклянным куполом. Здесь ученые сверяют руны со звездными картами.",
+      "exits": {
+        "south": "library_stack"
+      }
+    },
+    "library_curator_chamber": {
+      "area": "Библиотека Лонгреда",
+      "sector": "inside",
+      "title": "Кабинет главного библиотекаря",
+      "description": "Тяжелая дверь закрывает кабинет главного библиотекаря. Внутри собраны сильнейшие гримуары.",
+      "exits": {
+        "south": "library_restricted",
+        "west": "library_deep_archive"
+      }
+    }
+  },
+  "mobs": [
+    {
+      "name": "лесная крыса",
+      "room": "park_hedge",
+      "level": 1,
+      "strength": 9,
+      "agility": 11,
+      "vitality": 8,
+      "max_hp": 15,
+      "experience_reward": 18,
+      "gold_reward": 2,
+      "inventory": [
+        "rat_fang"
+      ]
+    },
+    {
+      "name": "бродячий кот",
+      "room": "park_center",
+      "level": 2,
+      "strength": 11,
+      "agility": 13,
+      "vitality": 9,
+      "max_hp": 20,
+      "experience_reward": 28,
+      "gold_reward": 5
+    },
+    {
+      "name": "лесной гоблин",
+      "room": "park_pond",
+      "level": 3,
+      "strength": 12,
+      "agility": 12,
+      "vitality": 10,
+      "max_hp": 26,
+      "experience_reward": 42,
+      "gold_reward": 10,
+      "inventory": [
+        "goblin_hood"
+      ],
+      "equipment": [
+        "goblin_dagger"
+      ]
+    },
+    {
+      "name": "колючий барсук",
+      "room": "park_ruins",
+      "level": 4,
+      "strength": 13,
+      "agility": 11,
+      "vitality": 12,
+      "max_hp": 34,
+      "experience_reward": 58,
+      "gold_reward": 14
+    },
+    {
+      "name": "ворон-тень",
+      "room": "park_glade",
+      "level": 5,
+      "strength": 14,
+      "agility": 14,
+      "vitality": 12,
+      "max_hp": 40,
+      "experience_reward": 75,
+      "gold_reward": 18
+    },
+    {
+      "name": "бешеный пес",
+      "room": "dog_pit",
+      "level": 7,
+      "strength": 16,
+      "agility": 15,
+      "vitality": 15,
+      "max_hp": 68,
+      "experience_reward": 155,
+      "gold_reward": 36,
+      "aggressive": true,
+      "loot_table": [
+        {
+          "item": "book_blindness",
+          "chance": 30
+        },
+        {
+          "item": "book_fire_burst",
+          "chance": 30
+        },
+        {
+          "item": "book_ice_strike",
+          "chance": 30
+        },
+        {
+          "item": "book_stone_fist",
+          "chance": 30
+        },
+        {
+          "item": "book_air_burst",
+          "chance": 30
+        },
+        {
+          "item": "book_restore_energy",
+          "chance": 30
+        }
+      ]
+    },
+    {
+      "name": "крупный слизень",
+      "room": "sewer_slime_nest",
+      "level": 5,
+      "strength": 12,
+      "agility": 8,
+      "vitality": 15,
+      "max_hp": 44,
+      "experience_reward": 70,
+      "gold_reward": 11
+    },
+    {
+      "name": "бешенная крыса",
+      "room": "sewer_tunnel",
+      "level": 6,
+      "strength": 14,
+      "agility": 15,
+      "vitality": 11,
+      "max_hp": 46,
+      "experience_reward": 84,
+      "gold_reward": 14,
+      "aggressive": true,
+      "inventory": [
+        "rat_fang"
+      ]
+    },
+    {
+      "name": "бешенная крыса",
+      "room": "sewer_crossroads",
+      "level": 6,
+      "strength": 14,
+      "agility": 15,
+      "vitality": 11,
+      "max_hp": 46,
+      "experience_reward": 84,
+      "gold_reward": 14,
+      "aggressive": true,
+      "inventory": [
+        "rat_fang"
+      ]
+    },
+    {
+      "name": "жирная крыса",
+      "room": "sewer_rat_run",
+      "level": 8,
+      "strength": 16,
+      "agility": 12,
+      "vitality": 16,
+      "max_hp": 62,
+      "experience_reward": 120,
+      "gold_reward": 22,
+      "inventory": [
+        "rat_fang"
+      ]
+    },
+    {
+      "name": "крысиный король",
+      "room": "sewer_boss",
+      "level": 10,
+      "strength": 18,
+      "agility": 17,
+      "vitality": 18,
+      "max_hp": 110,
+      "experience_reward": 260,
+      "gold_reward": 55,
+      "attacks_per_round": 4,
+      "loot_table": [
+        {
+          "item": "book_holy_wrath",
+          "chance": 20
+        },
+        {
+          "item": "book_soul_drain",
+          "chance": 20
+        },
+        {
+          "item": "book_exorcism",
+          "chance": 20
+        },
+        {
+          "item": "book_greater_heal",
+          "chance": 20
+        },
+        {
+          "item": "book_spirit_link",
+          "chance": 20
+        },
+        {
+          "item": "book_shadow_flame",
+          "chance": 20
+        },
+        {
+          "item": "book_fireball",
+          "chance": 20
+        },
+        {
+          "item": "book_tidal_wave",
+          "chance": 20
+        },
+        {
+          "item": "book_earth_shatter",
+          "chance": 20
+        },
+        {
+          "item": "book_lightning",
+          "chance": 20
+        },
+        {
+          "item": "rat_king_blade",
+          "chance": 18
+        },
+        {
+          "item": "rat_king_axe",
+          "chance": 18
+        },
+        {
+          "item": "rat_king_mace",
+          "chance": 18
+        },
+        {
+          "item": "rat_king_shiv",
+          "chance": 18
+        },
+        {
+          "item": "rat_king_polearm",
+          "chance": 18
+        }
+      ]
+    },
+    {
+      "name": "задумчивый читатель",
+      "room": "library_entry",
+      "level": 10,
+      "strength": 14,
+      "agility": 13,
+      "vitality": 14,
+      "max_hp": 78,
+      "experience_reward": 160,
+      "gold_reward": 20
+    },
+    {
+      "name": "задумчивый читатель",
+      "room": "library_archive",
+      "level": 10,
+      "strength": 14,
+      "agility": 13,
+      "vitality": 14,
+      "max_hp": 78,
+      "experience_reward": 160,
+      "gold_reward": 20
+    },
+    {
+      "name": "задумчивый читатель",
+      "room": "library_deep_archive",
+      "level": 10,
+      "strength": 14,
+      "agility": 13,
+      "vitality": 14,
+      "max_hp": 78,
+      "experience_reward": 160,
+      "gold_reward": 20
+    },
+    {
+      "name": "любопытная читательница",
+      "room": "library_hall",
+      "level": 12,
+      "strength": 16,
+      "agility": 15,
+      "vitality": 15,
+      "max_hp": 92,
+      "experience_reward": 210,
+      "gold_reward": 28
+    },
+    {
+      "name": "любопытная читательница",
+      "room": "library_stack",
+      "level": 12,
+      "strength": 16,
+      "agility": 15,
+      "vitality": 15,
+      "max_hp": 92,
+      "experience_reward": 210,
+      "gold_reward": 28
+    },
+    {
+      "name": "любопытная читательница",
+      "room": "library_observatory",
+      "level": 12,
+      "strength": 16,
+      "agility": 15,
+      "vitality": 15,
+      "max_hp": 92,
+      "experience_reward": 210,
+      "gold_reward": 28
+    },
+    {
+      "name": "серьезный читатель",
+      "room": "library_restricted",
+      "level": 13,
+      "strength": 17,
+      "agility": 16,
+      "vitality": 16,
+      "max_hp": 101,
+      "experience_reward": 240,
+      "gold_reward": 32
+    },
+    {
+      "name": "серьезный читатель",
+      "room": "library_deep_archive",
+      "level": 13,
+      "strength": 17,
+      "agility": 16,
+      "vitality": 16,
+      "max_hp": 101,
+      "experience_reward": 240,
+      "gold_reward": 32
+    },
+    {
+      "name": "серьезный читатель",
+      "room": "library_curator_chamber",
+      "level": 13,
+      "strength": 17,
+      "agility": 16,
+      "vitality": 16,
+      "max_hp": 101,
+      "experience_reward": 240,
+      "gold_reward": 32
+    },
+    {
+      "name": "главный библиотекарь",
+      "room": "library_curator_chamber",
+      "level": 15,
+      "strength": 20,
+      "agility": 18,
+      "vitality": 19,
+      "max_hp": 150,
+      "experience_reward": 420,
+      "gold_reward": 90,
+      "loot_table": [
+        {
+          "item": "book_sacred_shield",
+          "chance": 20
+        },
+        {
+          "item": "book_death_pact",
+          "chance": 20
+        },
+        {
+          "item": "book_zeal_purge",
+          "chance": 20
+        },
+        {
+          "item": "book_salvation",
+          "chance": 20
+        },
+        {
+          "item": "book_storm_totem",
+          "chance": 20
+        },
+        {
+          "item": "book_abyss_bolt",
+          "chance": 20
+        },
+        {
+          "item": "book_flame_storm",
+          "chance": 20
+        },
+        {
+          "item": "book_tsunami",
+          "chance": 20
+        },
+        {
+          "item": "book_mountain_guard",
+          "chance": 20
+        },
+        {
+          "item": "book_thunderstorm",
+          "chance": 20
+        }
+      ]
+    }
+  ]
+}
